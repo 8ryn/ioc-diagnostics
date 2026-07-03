@@ -6,4 +6,4 @@ git_platform: github.com
 github_org: Bryn
 name: ioc-diagnostics
 repo_uri: git@github.com:8ryn/ioc-diagnostics.git
-rtems: true
+rtems: false

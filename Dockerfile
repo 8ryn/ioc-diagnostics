@@ -1,10 +1,10 @@
 ARG IMAGE_EXT
 
 ARG REGISTRY=ghcr.io/epics-containers
-ARG RUNTIME=${REGISTRY}/epics-base${IMAGE_EXT}-runtime:7.0.9ec5
-ARG DEVELOPER=${REGISTRY}/epics-base${IMAGE_EXT}-developer:7.0.9ec5
+ARG RUNTIME=${REGISTRY}/epics-base${IMAGE_EXT}-runtime:7.0.9ec4b1
+ARG DEVELOPER=${REGISTRY}/epics-base${IMAGE_EXT}-developer:7.0.9ec4b1
 # for pre-built common support and faster builds of this generic IOC:
-# - change above to￼DEVELOPER=${REGISTRY}/ioc-asyn${IMAGE_EXT}-developer:4.45ec2
+# - change above to￼DEVELOPER=${REGISTRY}/ioc-asyn${IMAGE_EXT}-developer:4.45ec4b1
 # - comment out uv pip install lines below (unless a newer ibek is needed)
 # - remove ansible.sh lines for all support modules provided by ioc-asyn
 
